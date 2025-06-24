@@ -1042,22 +1042,6 @@ public final class PluginDescriptionFile implements io.papermc.paper.plugin.conf
     }
 
     /**
-     * Gets the libraries this plugin requires. This is a preview feature.
-     * <ul>
-     * <li>Libraries must be GAV specifiers and are loaded from Maven Central.
-     * </ul>
-     * <p>
-     * Example:<blockquote><pre>libraries:
-     *     - com.squareup.okhttp3:okhttp:4.9.0</pre></blockquote>
-     *
-     * @return required libraries
-     */
-    @NotNull
-    public List<String> getLibraries() {
-        return libraries;
-    }
-
-    /**
      * @return unused
      * @deprecated unused
      */
